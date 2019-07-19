@@ -1,0 +1,41 @@
+{
+  "name": "advance-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aditiverma1009/advance-react.git",
+  "author": "aditiverma1009 <aditiverma1009@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "webpack": "^4.35.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "html-loader": "^0.5.5",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
